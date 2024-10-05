@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url(/bodylines.png);
+}
+.active{
+    font-weight: bold;
+    color: black;
+}
+/* banner curve */
+.custom-shape-divider-bottom-1713964660 {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713964660 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    /* height: 92px; */
+}
+
+.custom-shape-divider-bottom-1713964660 .shape-fill {
+    fill: #FFF9EA;
+}
+/* banner curve */
+
+/* service curve */
+.custom-shape-divider-bottom-1713972170 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1713972170 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 92px;
+}
+
+.custom-shape-divider-bottom-1713972170 .shape-fill {
+    fill: #789D0E;
+}
+/* service curve */
+
+
+/* newFeature curve */
+.custom-shape-divider-bottom-1714066308 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1714066308 svg {
+    position: relative;
+    display: block;
+    width: calc(148% + 1.3px);
+    height: 106px;
+}
+
+.custom-shape-divider-bottom-1714066308 .shape-fill {
+    fill: #FFFFFF80;
+}
+/* newFeature curve */
+
+
